@@ -12,7 +12,7 @@ Notes:          This script may not function properly unless you're using Window
 #Necessary for password generation. Will not work if ran with a PowerShell version above 5.1
 Add-Type -AssemblyName System.Web
 
-Write-Host 'The column header should be Users and each username should be on a seperate line'
+Write-Host 'The column header should be Users and each username should be on a separate line'
 Write-Host 'Before continuing verify that your csv is properly formatted'
 Start-Sleep -Seconds 5
 
